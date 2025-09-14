@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 1000px) {
+    .nav {
+        width: 400px;
+    }
+}

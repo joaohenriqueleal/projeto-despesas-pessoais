@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+}
+
+.expensesInfos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barContent {
+    background-color: lightgrey;
+    border-radius: 20px;
+
+    margin: 6px;
+}
+
+.bar {
+    border-radius: 20px;
+
+    padding: 0 10px;
+    height: 30px;
+    margin: 2px;
+    min-width: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.bar p {
+    color: white;
+    font-weight: bolder;
+}
+
+.pName {
+    padding-left: 16px;
+}
+
+.pUsedGoal {
+    font-size: 0.9em;
+    font-weight: bolder;
+
+    padding-left: 12px;
+}
+
+.pGoal {
+    color: green;
+
+    padding-right: 12px;
+
+    font-weight: bolder;
+}

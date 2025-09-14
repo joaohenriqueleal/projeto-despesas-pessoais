@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+.main {
+    padding: 24px;
+    padding-bottom: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h2 {
+    padding-bottom: 32px;
+}
+
+.sectionMovimentations {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    background-color: rgb(242, 242, 242);
+    border-radius: 4px;
+
+    padding: 16px;
+    width: 400px;
+    height: 800px;
+    max-height: 1200px;
+
+    overflow-y: auto;
+}
+
+.buttonSearch {
+    background-color: black;
+    border-radius: 3px;
+    border: none;
+
+    color: white;
+    font-size: 1.1em;
+    font-weight: bolder;
+
+    padding: 10px;
+
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.buttonSearch:hover {
+    color: #ffbb3e;
+}
+
+.search {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 99;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    pointer-events: all;
+}
+
+.window {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.28);
+    background-color: white;
+    border-radius: 8px;
+
+    padding: 24px;
+    height: 1000px;
+    min-width: 420px;
+
+    animation: fromLeft .25s ease-in-out;
+}
+
+.windowHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.windowHeader button {
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    border: none;
+
+    padding: 12px 14px;
+
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.windowHeader button:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.windowBody {
+    padding: 32px 12px;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 6px;
+
+    overflow-y: auto;
+}
+
+@keyframes fromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

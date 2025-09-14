@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+.content {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.18);
+    background-color: rgb(214, 214, 214);
+    border-radius: 4px;
+
+    padding: 12px;
+    margin: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movimentationInfos {
+    display: flex;
+    flex-direction: column;
+}
+
+.movimentationInfos p {
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+.pDescription {
+    max-width: 230px;
+}
+
+.movimentationInfos h3 {
+    padding-bottom: 8px;
+
+    font-weight: 100;
+    font-size: 1.4em;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+}
+
+.controls button {
+    border-radius: 12px;
+    border: none;
+
+    padding: 12px;
+
+    font-size: 1.1em;
+    color: white;
+
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.buttonRemove {
+    background-color: black;
+}
+
+.buttonRemove:hover {
+    background-color: red;
+}
+
+.buttonEdit {
+    background-color: #248;
+}
+
+.buttonEdit:hover {
+    background-color: rgb(50, 98, 196);
+}

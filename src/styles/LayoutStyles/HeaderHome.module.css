@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+
+.header {
+    background-color: #212121;
+
+    padding: 24px;
+}
+
+.header hr {
+    margin-bottom: 24px;
+}
+
+.menuTitle {
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header h2 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.47);
+
+    margin: 0 auto;
+}
+
+.header p {
+    padding: 4px;
+
+    font-size: 1.2em;
+    font-weight: bolder;
+
+    text-align: center;
+    color: white;
+}
+
+.price {
+    margin-left: 8px;
+}
+
+.inputs {
+    color: rgba(64, 233, 30, 1);
+}
+
+.outputs {
+    color: red;
+}
+
+.barSelectTime {
+    margin-top: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonSelectTime {
+    background-color: inherit;
+    border: none;
+
+    color: white;
+    font-size: 1.12em;
+    font-weight: bolder;
+
+    padding: 10px 16px;
+
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.buttonSelectTime:hover {
+    background-color: rgb(11, 11, 11);
+}
+
+.activeButton {
+    background-color: #4c4c4c;
+}
+
+.hr {
+    max-width: 1200px;
+    margin: auto;
+}

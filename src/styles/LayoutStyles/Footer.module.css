@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+.footer {
+    background-color: #202020;
+
+    padding: 32px;
+    width: 100%;
+    margin-top: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer p {
+    color: white;
+
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.name {
+    color: #ffbb3e;
+    margin-right: 4px;
+}
+
+.socialMedias {
+    display: flex;
+    gap: 16px;
+}
+
+.media {
+    color: white;
+    font-size: 1.6em;
+
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.media:hover {
+    color: #ffbb3e;
+}

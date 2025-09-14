@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+.main {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-color: #212121;
+
+    padding: 32px 24px;
+
+    display: flex;
+}
+
+.header h1 {
+    margin: 0 auto;
+
+    color: white;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+.search {
+    padding: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.dataGridView {
+    padding: 28px;
+}
+
+.dataGridView table {
+    width: 400px;
+    max-height: 800px;
+
+    overflow-y: auto;
+}
+
+.dataGridView th {
+    background-color: #248;
+
+    font-size: 1.3em;
+    font-weight: bolder;
+
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.23);
+    color: white;
+
+    padding: 16px;
+}
+
+.dataGridView td {
+    background-color: rgb(234, 234, 234);
+
+    padding: 12px;
+
+    font-size: 1.2em;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dataGridView td button {
+    border-radius: 12px;
+    border: none;
+
+    color: white;
+    font-size: 1.2em;
+
+    padding: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.buttonRemoveCategory {
+    background-color: rgb(36, 36, 36);
+}
+
+.buttonRemoveCategory:hover {
+    background-color: red;
+}
+
+.buttonEditCategory {
+    background-color: #248;
+}
+
+.buttonEditCategory:hover {
+    background-color: rgb(43, 89, 182);
+}
+
+.controls {
+    display: flex;
+    gap: 6px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+}

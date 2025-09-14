@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+.main {
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accounts {
+    border: 3px solid lightgray;
+    border-radius: 16px;
+
+    height: 400px;
+    padding: 16px;
+    margin-bottom: 100px;
+
+    overflow-y: auto;
+}
