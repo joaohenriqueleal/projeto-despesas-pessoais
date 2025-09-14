@@ -1,12 +1,19 @@
-# React + Vite
+*Projeto gerenciamento de despesas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+** Tecnologias ultilizadas
+- HTML
+- CSS
+- JavaScrit
+- React + Vite
+- ChartJS
+- LocalStorage
+- SessionStorage
 
-Currently, two official plugins are available:
+** Do que se trata?
+O Projeto gerenciamento de despesas trata-se de um sistema de gerenciamento de despesas pessoais, com gráficos, insights, e organização personalisada. É possível
+criar categorias de despesas personalizadas, definir metas para as mesmas, e visulizar o progresso em diferentes tipos de gráficos. Também, selecionar diferentes
+intervalos de tempo pra visualização dos dados (hoje, 7d, 30d, ano, tudo).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+** O que aprendi com este projeto?
+Neste projeto aprendi á manipular diferentes tipos de gráficos com chartJS, Manipulação da DOM react, componentização e reaproveitamento de componentes,
+controle de estados complexos e fluxos de render com React. Manipulação de timesttamps precisos pra melhor exibição e contextualização de dados.
