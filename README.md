@@ -1,19 +1,19 @@
-#Projeto gerenciamento de despesas
+# Projeto Gerenciamento de Despesas
 
-##Tecnologias ultilizadas
+## Tecnologias utilizadas
 - HTML
 - CSS
-- JavaScrit
+- JavaScript
 - React + Vite
 - ChartJS
 - LocalStorage
 - SessionStorage
 
-##Do que se trata?
-O Projeto gerenciamento de despesas trata-se de um sistema de gerenciamento de despesas pessoais, com gráficos, insights, e organização personalisada. É possível
-criar categorias de despesas personalizadas, definir metas para as mesmas, e visulizar o progresso em diferentes tipos de gráficos. Também, selecionar diferentes
-intervalos de tempo pra visualização dos dados (hoje, 7d, 30d, ano, tudo).
+## Do que se trata?
+O projeto **Gerenciamento de Despesas** é um sistema de gerenciamento de despesas pessoais, com gráficos, insights e organização personalizada.  
+É possível criar categorias de despesas personalizadas, definir metas para cada categoria e visualizar o progresso em diferentes tipos de gráficos.  
+Além disso, é possível selecionar diferentes intervalos de tempo para a visualização dos dados (hoje, 7 dias, 30 dias, ano ou tudo).
 
-##O que aprendi com este projeto?
-Neste projeto aprendi á manipular diferentes tipos de gráficos com chartJS, Manipulação da DOM react, componentização e reaproveitamento de componentes,
-controle de estados complexos e fluxos de render com React. Manipulação de timesttamps precisos pra melhor exibição e contextualização de dados.
+## O que aprendi com este projeto?
+Neste projeto, aprendi a manipular diferentes tipos de gráficos com ChartJS, manipulação da DOM no React, componentização e reaproveitamento de componentes,  
+controle de estados complexos e fluxos de renderização com React, e manipulação de timestamps precisos para melhor exibição e contextualização dos dados.
