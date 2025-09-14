@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+.menuContent svg {
+    height: 25px;
+    width: 25px;
+}
+
+.menuContent {
+    background-color: #2a2a2a;
+    border-radius: 40%;
+
+    padding: 12px;
+    width: 49px;
+    color: white;
+
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.menuContent:hover {
+    background-color: #393939;
+}

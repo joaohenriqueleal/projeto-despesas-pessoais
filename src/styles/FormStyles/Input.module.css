@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+.inputsContainer{
+    margin-bottom: 21px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-weight: bolder;
+    font-size: 1.12em;
+
+    padding-bottom: 6px;
+}
+
+.input {
+    border: 1px solid gray;
+    border-radius: 3px;
+
+    padding: 6px;
+    width: 300px;
+
+    font-size: 1.1em;
+}

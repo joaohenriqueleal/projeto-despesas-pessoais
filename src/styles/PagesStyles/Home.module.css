@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+
+.containerHome {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+}
+
+.sectionAddItems {
+    border-radius: 16px;
+
+    padding: 12px;
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.chartResumeCategories {
+    background-color: rgb(244, 244, 244);
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 16px;
+
+    padding: 10px;
+}
+
+.chartResumeCategories h2 {
+    padding-bottom: 24px;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.graphicGoals {
+    display: flex;
+    flex-direction: column;
+}
+
+.graphicGoals h2 {
+    text-align: center;
+}
+
+.resumeMoneyInputs {
+    padding-bottom: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resumeMoneyInputs h2 {
+    text-align: center;
+}

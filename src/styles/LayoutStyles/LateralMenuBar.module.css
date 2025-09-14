@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 99;
+
+    display: flex;
+    align-items: start;
+    justify-content: start;
+
+    pointer-events: all;
+}
+
+.nav {
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.19);
+    background-color: white;
+
+    height: 100%;
+    width: 250px;
+
+    position: relative;
+    animation: fromLeft .2s ease-in-out;
+}
+
+.nav h1 {
+    background-color: lightgray;
+
+    color: black;
+    padding: 8px;
+
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.options {
+    padding: 6px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.link {
+    background-color: rgb(245, 245, 245);
+    border-radius: 12px;
+
+    padding: 12px;
+
+    color: black;
+    font-size: 1.3em;
+    font-weight: bolder;
+
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.link:hover {
+    background-color: lightgray;
+}
+
+.logOutLink {
+    color: red;
+}
+
+@keyframes fromLeft {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+.popup {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.31);
+    background-color: black;
+    border-radius: 6px;
+
+    padding: 14px;
+    margin: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    animation: enter ease-in-out .3s;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.popup p {
+    max-width: 150px;
+
+    color: white;
+
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.popup button {
+    background-color: rgb(8, 8, 8);
+    border-radius: 50%;
+    border: none;
+
+    color: rgb(0, 214, 0);
+
+    padding: 6px 8px;
+
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.popup button:hover {
+    background-color: rgb(14, 14, 14);
+}
+
+@keyframes enter {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }
+}
+
+.progressBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background: limegreen;
+    width: 100%;
+    animation: progress 3s linear forwards;
+}
+
+@keyframes progress {
+    from { width: 100%; }
+    to { width: 0%; }
+}

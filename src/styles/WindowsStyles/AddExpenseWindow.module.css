@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 99;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    pointer-events: all;
+}
+
+.window {
+    border-radius: 12px;
+
+    margin-bottom: 100px;
+    width: 400px;
+
+    overflow: hidden;
+}
+
+.windowHeader {
+    background-color: #212121;
+
+    padding: 12px;
+    padding-left: 32px;
+}
+
+.windowHeader h1 {
+    color: white;
+}
+
+.windowBody {
+    background-color: white;
+
+    padding: 64px 32px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.windowBody label {
+    padding-bottom: 4px;
+
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.windowBody input {
+    border: 1px solid grey;
+    border-radius: 3px;
+
+    padding: 6px;
+    max-width: 300px;
+
+    font-size: 1.1em;
+}
+
+.windowBody select {
+    border: 1px solid gray;
+    border-radius: 4px;
+
+    font-size: 1.1em;
+
+    padding: 8px;
+    width: 300px;
+
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.windowFooter {
+    background-color: #252525;
+
+    padding: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.windowFooter button {
+    background-color: rgb(231, 231, 231);
+    border-radius: 2px;
+    border: none;
+
+    padding: 12px 20px;
+
+    font-size: 1.1em;
+    font-weight: bolder;
+
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.windowFooter button {
+    background-color: rgb(231, 231, 231);
+    border-radius: 2px;
+    border: none;
+
+    padding: 12px 20px;
+
+    font-size: 1.1em;
+    font-weight: bolder;
+
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.windowFooter button:hover {
+    transform: translateY(-2px);
+}
+
+.buttonCancel {
+    background-color: red !important;
+    color: white;
+}
+
+.buttonCancel:hover {
+    background-color: rgb(255, 74, 74) !important;
+}
+
+.buttonAdd {
+    background-color: rgb(42, 85, 171) !important;
+    color: white;
+}
+
+.buttonAdd:hover {
+    background-color: rgb(59, 117, 233) !important;
+}
